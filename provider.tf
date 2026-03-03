@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "bitbucket" {
-  username  = "terraformuser@socpuppets.com"
+  username  = "terraformuser@socpuppets.com"  #it's imported to user the emailaddress
   #
   # you would set the API TOKEN under  the APP and scope # call this a s variable var.password
   #
